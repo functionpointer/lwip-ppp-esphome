@@ -13,12 +13,24 @@
     {
       "name": "functionpointer",
       "email": "suspendfunction@gmail.com",
-      "url": "github.com/functionpointer",
+      "url": "https://github.com/functionpointer",
       "maintainer": true
     }
   ],
-  "license": "Modified BSD",
+  "license": "BSD-3-Clause",
   "homepage": "https://github.com/functionpointer/lwip-ppp-esphome",
   "frameworks": "*",
-  "platforms": "*"
+  "platforms": "*",
+  "export": {
+    "exclude":
+    [
+      "library.json.template",
+      ".github/",
+      "__pycache__",
+      ".pio/",
+      ".vscode/",
+      ".git/",
+      ".gitignore"
+    ]
+  }
 }
