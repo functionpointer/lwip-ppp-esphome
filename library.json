@@ -1,0 +1,24 @@
+{
+  "name": "lwip-ppp-esphome",
+  "version": "0.0.1",
+  "description": "ppp code from lwip, packaged as library for use in esphome",
+  "keywords": "rp2040, esphome, ppp, lwip",
+  "repository":
+  {
+    "type": "git",
+    "url": "https://github.com/functionpointer/lwip-ppp-esphome"
+  },
+  "authors":
+  [
+    {
+      "name": "functionpointer",
+      "email": "suspendfunction@gmail.com",
+      "url": "github.com/functionpointer",
+      "maintainer": true
+    }
+  ],
+  "license": "Modified BSD",
+  "homepage": "https://github.com/functionpointer/lwip-ppp-esphome",
+  "frameworks": "*",
+  "platforms": "*"
+}
